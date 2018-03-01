@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Disappearing Ninja</title>
+    	<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+
+
+		<script>
+			$(document).ready(function(){
+			
+				$("img").click(function() 
+				{
+					$(this).hide();
+
+
+				});
+				
+				
+				$("#button").click(function() 
+				{
+						$(".ninja").show();
+				});
+
+
+
+
+			});
+			
+			
+			
+
+
+			
+
+		</script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			
+			<div id="content">
+				<div id="div1" class="sections">
+					<div>
+						<div class="boxes"><img src="ninja.png" alt="" class="ninja"></div>
+						<div class="boxes"><img src="ninja.png" alt="" class="ninja"></div>
+						<div class="boxes"><img src="ninja.png" alt="" class="ninja"></div>
+						<div class="boxes"><img src="ninja.png" alt="" class="ninja"></div>
+					</div>
+				</div>
+				<div id="div2" class="sections">
+					<div>
+						<div class="boxes"><img src="ninja.png" alt="" class="ninja"></div>
+						<div class="boxes"><img src="ninja.png" alt="" class="ninja"></div>
+						<div class="boxes"><img src="ninja.png" alt="" class="ninja"></div>
+						<div class="boxes"><img src="ninja.png" alt="" class="ninja"></div>
+					</div>
+				</div>
+			</div>
+			<button id="button">Ninja REAPPEAR!!!!</button>
+		</div>
+	</body>
+</html>

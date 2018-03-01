@@ -1,0 +1,48 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+ width: 500px;
+ background-color: white;
+ margin: 0px;
+ padding: 2px;
+}
+#content{
+ width: 419px;
+ background-color: white;
+ margin: 10px;
+ margin-bottom: 10px;
+ border-radius: 10px;
+ border-style: solid;
+ border-width: 5px;
+}
+.sections{
+ height: 100px;
+ width: 419px;
+ background-color: white;
+ border-radius: 20px;
+ display: inline-block;
+ }
+ #div1{
+ 	display: inline-block;
+ }
+  #div2{
+ 	display: inline-block;
+ }
+#button{
+	width: 125px;
+	height: 65px;
+	display: inline-block;
+}
+.ninja{
+	 width: auto;
+	 height: 100px;
+	 display: inline-block;
+}
+.boxes{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
